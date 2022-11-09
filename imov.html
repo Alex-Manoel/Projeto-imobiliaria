@@ -21,7 +21,7 @@
 
         <form class="card">
             <div class="card-header">
-                <h2>Ca<span>dastro</span></h2>
+                <h2>Ca<span>dastro de Imóveis</span></h2>
             </div>
             <div class="card-content">
                 <div class="card-content-area">
@@ -36,9 +36,15 @@
                     <label for="usuario">descrição</label>
                     <input type="text" id="desc" autocomplete="off">
                 </div>
+                <div class="card-content-area">
+                    <label class="picture" tabindex="0">
+                        <input type="file" accept="image/*" class="picture__input">
+                        <span class="picture__image">Imagem</span>
+                    </label>
+                </div>
             </div>
             <div class="card-footer">
-                <a class="back" onclick="cadastro()">Cadastrar</a>
+                <a href="#" class="back" onclick="cadastro()">Cadastrar</a>
                 <p id="ok">Cadastro realizado com sucesso</p>
                 <p id="nok">Prencha os campos corretamente</p>
             </div>
