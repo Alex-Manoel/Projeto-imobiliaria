@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da pagina</title>
+    <link rel="shortcut icon" href="img/Alecive-Flatwoken-Apps-Almanah.ico" type="image/x-icon">
+    <link rel="stylesheet" href="imov.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="login">
+
+        <form class="card">
+            <div class="card-header">
+                <h2>Ca<span>dastro</span></h2>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="usuario">condominio</label>
+                    <input type="text" id="nome" autocomplete="off">
+                </div>
+                <div class="card-content-area">
+                    <label for="usuario">numero</label>
+                    <input class="card-number" type="text" id="num" autocomplete="off">
+                </div>
+                <div class="card-content-area">
+                    <label for="usuario">descrição</label>
+                    <input type="text" id="desc" autocomplete="off">
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="back" onclick="cadastro()">Cadastrar</a>
+                <p id="ok">Cadastro realizado com sucesso</p>
+                <p id="nok">Prencha os campos corretamente</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="validi.js"></script>
+
+</html>
